@@ -21,26 +21,26 @@ const styles = StyleSheet.create({
     backgroundColor: '#d3d3d3', 
   },
   text: {
-    fontSize: 24, // Ukuran teks
-    color: 'blue', // Warna teks biru
-    fontWeight: 'bold', // Teks tebal
-    marginBottom: 30, // Ruang antara teks dan kotak
+    fontSize: 24, 
+    color: 'blue',
+    fontWeight: 'bold', 
+    marginBottom: 30, 
   },
   boxesContainer: {
-    flexDirection: 'row', // Tata letak horizontal untuk kotak
-    justifyContent: 'space-evenly', // Jarak lebih besar antara kotak
-    alignItems: 'center', // Posisikan kotak di tengah secara vertikal
-    width: '100%', // Lebar container kotak (lebih besar agar jarak makin jauh)
+    flexDirection: 'row', 
+    justifyContent: 'space-evenly', 
+    alignItems: 'center', 
+    width: '100%', 
   },
   box1: {
-    width: 100, // Lebar kotak pertama
-    height: 100, // Tinggi kotak pertama
-    backgroundColor: 'yellow', // Warna kotak pertama
+    width: 100, 
+    height: 100, 
+    backgroundColor: 'yellow', 
   },
   box2: {
-    width: 100, // Lebar kotak kedua
-    height: 100, // Tinggi kotak kedua
-    backgroundColor: 'aqua', // Warna kotak kedua
+    width: 100, 
+    height: 100, 
+    backgroundColor: 'aqua', 
   },
 });
 
